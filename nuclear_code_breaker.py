@@ -111,7 +111,7 @@ def main():
     slow_print("\nDeciphering, please wait...\n")
     breaker.decipher(hint)
 
-    ps.system('pause')
+    os.system('pause')
 
 
 if __name__ == '__main__':
